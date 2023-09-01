@@ -1,7 +1,7 @@
 const counters = document.querySelectorAll(
   "[data-counter]"
 ) as NodeListOf<HTMLHeadingElement>;
-console.log();
+
 
 const incrementFollowers: () => void = () => {
   const followers:Array<{name:string,maxFollowers:number}> = [
